@@ -1,4 +1,4 @@
-class Avenger {
+class AvengerGetAndSet {
   constructor(
     public name:string,
     public realName:string,
@@ -13,7 +13,7 @@ class Avenger {
   }
 }
 
-class Xmen extends Avenger {
+class Xmen extends AvengerGetAndSet {
   constructor(
     name:string,
     realName:string,

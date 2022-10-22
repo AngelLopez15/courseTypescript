@@ -9,7 +9,7 @@ abstract class Mutante {
   ) {}
 }
 
-class Xmen extends Mutante {
+class XmenAbstrac extends Mutante {
   salvarMundo() {
     return 'Salvar Mundo!!'
   }
@@ -20,10 +20,10 @@ class BrotherHood extends Mutante {
   }
 }
 
-const wolverine = new Xmen('Wolverine', 'James Howlett');
+const wolverineDos = new XmenAbstrac('Wolverine', 'James Howlett');
 const magneto = new BrotherHood('Magneto', 'Erick Leshner');
 
-console.log(wolverine.salvarMundo());
+console.log(wolverineDos.salvarMundo());
 console.log(magneto.destruirMundoHumano());
 
 // Las clases abstractas tambien nos sirven para "tipar" argumentos. Osea se compararan que sean
